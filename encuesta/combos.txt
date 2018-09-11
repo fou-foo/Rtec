@@ -1,0 +1,184 @@
+<html>
+<head>
+</head>
+<body>
+<table>
+<select name="sexo">
+<option value="0" selected>Mujer</option>
+<option value="1">Hombre</option>
+</select>
+
+<select name="genero">
+<option value="0" selected>Femenino</option>
+<option value="1">Masculino</option>
+<option value="2">Otro</option>
+</select>
+
+<select name="estadocivil">
+<option value="0" selected>Soltera(o)</option>
+<option value="1">Casada(o)</option>
+<option value="2">Unión Libre</option>
+<option value="3">Divorciada(o)</option>
+<option value="4">Viuda(o)</option>
+<option value="5">Otra(o)</option>
+</select>
+
+<select name="estudios">
+<option value="0">Preparatoria</option>
+<option value="1" selected>Carrera</option>
+<option value="2">Posgrado</option>
+<option value="3">Otro</option>
+</select>
+
+<select name="procedencia">
+<option value="1">Local</option>
+<option value="0">Foráneo</option>
+</select>
+
+<select name="estado">
+<option value="0">Todo México</option>
+<option value="1">Aguascalientes</option>
+<option value="2">Baja California</option>
+<option value="3">Baja California Sur</option>
+<option value="4">Campeche</option>
+<option value="5">Coahuila de Zaragoza</option>
+<option value="6">Colima</option>
+<option value="7">Chiapas</option>
+<option value="8">Chihuahua</option>
+<option value="9">Distrito Federal</option>
+<option value="10">Durango</option>
+<option value="11">Guanajuato</option>
+<option value="12">Guerrero</option>
+<option value="13">Hidalgo</option>
+<option value="14">Jalisco</option>
+<option value="15">México</option>
+<option value="16">Michoacán de Ocampo</option>
+<option value="17">Morelos</option>
+<option value="18">Nayarit</option>
+<option value="19" selected>Nuevo León</option>
+<option value="20">Oaxaca</option>
+<option value="21">Puebla</option>
+<option value="22">Querétaro</option>
+<option value="23">Quintana Roo</option>
+<option value="24">San Luis Potosí</option>
+<option value="25">Sinaloa</option>
+<option value="26">Sonora</option>
+<option value="27">Tabasco</option>
+<option value="28">Tamaulipas</option>
+<option value="29">Tlaxcala</option>
+<option value="30">Veracruz de Ignacio de la Llave</option>
+<option value="31">Yucatán</option>
+<option value="32">Zacatecas</option>
+</select>
+
+<select name="preparatoriaorigen">
+<option value="0">Preparatoria Tec</option>
+<option value="1">Preparatoria Particular pero no Tec</option>
+<option value="2">Preparatoria Pública</option>
+</select>
+
+<select name="carrera">
+<option value="LAE">LAE LICENCIADO EN ADMINISTRACIÓN Y ESTRATEGIA DE NEGOCIOS</option>
+<option value="LAF">LAF LICENCIADO EN ADMINISTRACIÓN FINANCIERA</option>
+<option value="LCPF">LCPF LICENCIADO EN CONTADURÍA PÚBLICA Y FINANZAS</option>
+<option value="LCDE">LCDE LICENCIADO EN CREACIÓN Y DESARROLLO DE EMPRESAS</option>
+<option value="LLN">LLN LICENCIADO EN LOGÍSTICA INTERNACIONAL</option>
+<option value="LEM">LEM LICENCIADO EN MERCADOTECNIA</option>
+<option value="LMC">LMC LICENCIADO EN MERCADOTECNIA Y COMUNICACIÓN</option>
+<option value="LIN">LIN LICENCIADO EN NEGOCIOS INTERNACIONALES</option>
+<option value="LPO">LPO LICENCIADO EN PSICOLOGÍA ORGANIZACIONAL</option>
+<option value="LPM">LPM LICENCIADO EN PUBLICIDAD Y COMUNICACIÓN DE MERCADOS</option>
+<option value="IID">IID INGENIERO EN INNOVACIÓN Y DESARROLLO</option>
+<option value="IC">IC INGENIERO CIVIL</option>
+<option value="IDA">IDA INGENIERO EN DISEÑO AUTOMOTRIZ</option>
+<option value="IMT">IMT INGENIERO EN MECATRÓNICA</option>
+<option value="IFI">IFI INGENIERO FÍSICO INDUSTRIAL</option>
+<option value="IIS">IIS INGENIERO INDUSTRIAL Y DE SISTEMAS</option>
+<option value="IMA">IMA INGENIERO MECÁNICO ADMINISTRADOR</option>
+<option value="IME">IME INGENIERO MECÁNICO ELECTRICISTA</option>
+<option value="LCMD">LCMD LICENCIADO EN COMUNICACIÓN Y MEDIOS DIGITALES</option>
+<option value="LAD">LAD LICENCIADO EN ANIMACIÓN Y ARTE DIGITAL</option>
+<option value="IMI">IMI INGENIERO EN PRODUCCIÓN MUSICAL DIGITAL</option>
+<option value="LLE">LLE LICENCIADO EN LETRAS HISPÁNICAS</option>
+<option value="LMI">LMI LICENCIADO EN PERIODISMO Y MEDIOS DE INFORMACIÓN</option>
+<option value="LP">LP LICENCIADO EN PSICOLOGÍA</option>
+<option value="LTS">LTS LICENCIADO EN TRANSFORMACIÓN SOCIAL</option>
+<option value="LPL">LPL LICENCIADO EN CIENCIA POLÍTICA</option>
+<option value="LED">LED LICENCIADO EN DERECHO</option>
+<option value="LDP">LDP LICENCIADO EN DERECHO Y CIENCIA POLÍTICA</option>
+<option value="LDF">LDF LICENCIADO EN DERECHO Y FINANZAS</option>
+<option value="LEC">LEC LICENCIADO EN ECONOMÍA</option>
+<option value="LEF">LEF LICENCIADO EN ECONOMÍA Y FINANZAS</option>
+<option value="LRI">LRI LICENCIADO EN RELACIONES INTERNACIONALES</option>
+<option value="ITI">ITI INGENIERO EN TECNOLOGÍAS DE INFORMACIÓN</option>
+<option value="INT">INT INGENIERO EN NEGOCIOS Y TECNOLOGÍAS DE INFORMACIÓN</option>
+<option value="ISC">ISC INGENIERO EN SISTEMAS COMPUTACIONALES</option>
+<option value="ISDR">ISDR INGENIERO EN SISTEMAS DIGITALES Y ROBÓTICA</option>
+<option value="ITC">ITC INGENIERO EN TECNOLOGÍAS COMPUTACIONALES</option>
+<option value="ITE">ITE INGENIERO EN TECNOLOGÍAS ELECTRÓNICAS</option>
+<option value="ITS">ITS INGENIERO EN TELECOMUNICACIONES Y SISTEMAS ELECTRÓNICOS</option>
+<option value="IBT">IBT INGENIERO EN BIOTECNOLOGÍA</option>
+<option value="IA">IA INGENIERO AGRÓNOMO</option>
+<option value="IMD">IMD INGENIERO BIOMÉDICO</option>
+<option value="IBN">IBN INGENIERO EN BIONEGOCIOS</option>
+<option value="IDS">IDS INGENIERO EN DESARROLLO SUSTENTABLE</option>
+<option value="IIA">IIA INGENIERO EN INDUSTRIAS ALIMENTARIAS</option>
+<option value="INCQ">INCQ INGENIERO EN NANOTECNOLOGÍA Y CIENCIAS QUÍMICAS</option>
+<option value="IQA">IQA INGENIERO QUÍMICO ADMINISTRADOR</option>
+<option value="IQP">IQP INGENIERO QUÍMICO EN PROCESOS SUSTENTABLES</option>
+<option value="LDI">LDI LICENCIADO EN DISEÑO INDUSTRIAL</option>
+<option value="LAD">LAD LICENCIADO EN ANIMACIÓN Y ARTE DIGITAL</option>
+<option value="ARQ">ARQ ARQUITECTO</option>
+<option value="LBC">LBC LICENCIADO EN BIOCIENCIAS</option>
+<option value="LNB">LNB LICENCIADO EN NUTRICIÓN Y BIENESTAR INTEGRAL</option>
+<option value="LPS">LPS LICENCIADO EN PSICOLOGÍA CLÍNICA Y DE LA SALUD</option>
+<option value="MC">MC MÉDICO CIRUJANO</option>
+<option value="MO">MO MÉDICO CIRUJANO ODONTÓLOGO</option>
+</select>
+
+<select name="vivesen">
+<option value="0">Residencias</option>
+<option value="1">Departamento</option>
+<option value="2">En casa con mi familia</option>
+<option value="3">Casa particular</option>
+<option value="4">Casa rentada</option>
+<option value="5">Otra</option>
+</select>
+
+<select name="tienesbeca">
+<option value="0" selected>No</option>
+<option value="1">Si</option>
+</select>
+
+<select name="tipobeca">
+<option value="0" selected>No</option>
+<option value="1">Beca con porcentaje</option>
+<option value="2">Excelencia</option>
+<option value="2">Crédito</option>
+<option value="4">Tradicional</option>
+<option value="5">Por empleado</option>
+<option value="6">Deportiva EDF</option>
+<option value="7">Deportiva FBA</option>
+<option value="8">Otras</option>
+</select>
+
+<select name="trabaja">
+<option value="0" selected>No</option>
+<option value="1">Si</option>
+</select>
+
+<select name="tieneactividadextraacademica">
+<option value="0" selected>No</option>
+<option value="1">Si</option>
+</select>
+
+<select name="religion">
+<option value="1" selected>Si</option>
+<option value="0">No</option>
+<option value="2">No sé</option>
+</select>
+
+<select name="acitividadespiritual">
+<option value="0" selected>No</option>
+<option value="1">Si</option>
+</select>

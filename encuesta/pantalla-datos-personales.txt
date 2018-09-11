@@ -1,0 +1,119 @@
+<?php if($i==):?>selected<?php endif;?>
+
+<select name="procedencia">
+	<?php for($i=0;$i<= $procedenciaN ; $i++): ?> 
+		<option value="<?php echo $i;?>" <?php if():?>selected<?php endif;?> >
+			<?php echo $procedenciaA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="estadocivil">
+	<?php for($i=0;$i<= $estadocivilN ; $i++): ?> 
+		<option value="<?php echo $i;?>" <?php if($i==$estadocivilD):?>selected<?php endif;?> >
+			<?php echo $estadocivilA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="sexo">
+	<?php for($i=0;$i<= $sexoN ; $i++): ?>
+		<option value="<?php echo $i;?>" <?php if($i==$sexoD):?>selected<?php endif;?>>
+			<?php echo $sexoA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="genero">
+	<?php for($i=0;$i<= $generoN ; $i++): ?> 
+		<option value="<?php echo $i;?>" <?php if($i==$generoD):?>selected<?php endif;?>>
+			<?php echo $generoA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="estudios">
+	<?php for($i=0;$i<= $estudiosN ; $i++): ?> 
+		<option value="<?php echo $i;?>" <?php if($i==$estudiosD):?>selected<?php endif;?>>
+			<?php echo $estudiosA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="estado">
+	<?php for($i=0;$i<= $estadoN ; $i++): ?> 
+		<option value="<?php echo $i;?>" <?php if($i==$estadoD):?>selected<?php endif;?>>
+			<?php echo $estadoA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="carrera">
+	<?php for($i=0;$i<= $carreraN ; $i++): ?> 
+		<option value="<?php echo $i;?>" <?php if($i==$carreraD):?>selected<?php endif;?>>
+			<?php echo $carreraA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="vivesen">
+	<?php for($i=0;$i<= $vivesenN ; $i++): ?>
+		<option value="<?php echo $i;?>" <?php if($i==$vivesenD):?>selected<?php endif;?>>
+			<?php echo $vivesenA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="tienesbeca">
+	<?php for($i=0;$i<= $tienesbecaN ; $i++): ?> 
+		<option value="<?php echo $i;?>" <?php if($i==$tienesbecaD):?>selected<?php endif;?>>
+			<?php echo $tienesbecaA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="tipobeca">
+	<?php for($i=0;$i<= $tipobecaN ; $i++): ?>
+		<option value="<?php echo $i;?>" <?php if($i==$tipobecaD):?>selected<?php endif;?>>
+			<?php echo $tipobecaA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="trabaja">
+	<?php for($i=0;$i<= $trabajaN ; $i++): ?>
+		<option value="<?php echo $i;?>" <?php if($i==$trabajaD):?>selected<?php endif;?>>
+			<?php echo $trabajaA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="tieneactividadextraacademica">
+	<?php for($i=0;$i<= $tieneactividadextraacademicaN ; $i++): ?>
+		<option value="<?php echo $i;?>" <?php if($i==$tieneactividadextraacademicaD):?>selected<?php endif;?>>
+		<?php echo $tieneactividadextraacademicaA[$i];?></option><?php endfor;?>
+</select>
+
+<select name="religion">
+	<?php for($i=0;$i<= $religionN ; $i++): ?>
+		<option value="<?php echo $i;?>" <?php if($i==$religionD):?>selected<?php endif;?>>
+			<?php echo $religionA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<select name="actividadespiritual">
+	<?php for($i=0;$i<= $actividadespiritualN ; $i++): ?>
+		<option value="<?php echo $i;?>" <?php if($i==$actividadespiritualD):?>selected<?php endif;?>>
+			<?php echo $actividadespiritualA[$i];?>
+		</option>
+	<?php endfor;?>
+</select>
+
+<input type="text" name="cualextraacademica" value="$cualextraacademic" size="40" maxlength="100">
+
+<input type="text" name="cualreligion" value="$cualreligion" size="40" maxlength="100">
+
+<input type="text" name="enquetrabaja" value="$enquetrabaja"  size="40" maxlength="100">
+
+<input type="text" name="cualactividadespiritual" value="$cualactividadespiritual" size="40" maxlength="100">

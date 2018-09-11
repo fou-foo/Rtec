@@ -1,0 +1,238 @@
+  body {
+    padding-left: 1em;
+    padding-top: 1em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: darkblue;
+    background-color: lightyellow }
+
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+
+  h2 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+          text-align: center }  
+  h3 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  /* se agrega clase 28Jun2018 para cambiar tamaño de letra*/
+  .foo {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+    color: green;
+    font-family: verdana;
+    font-size: 200%;
+  }
+  .foo2 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+    color: green;
+    font-family: verdana;
+    font-size: 120%;
+  }
+  .foo3 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+    font-family: verdana;
+    font-size: 150%;
+  }
+  .foo4 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+    font-family: verdana;
+    font-size: 250%;
+  }
+
+  ul { display:table; margin:0 auto;}
+
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em; list-style-type: circle}
+
+  ul.navbar li {
+    background: lightblue;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
+    list-style-type: circle }
+
+  ul.navbar a {
+    text-decoration: none;
+    list-style-type: circle
+  }
+
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+ #navlist
+{
+position: relative;
+width: 100%;
+height: 1.05em;
+margin: 0;
+padding: 0;
+border-bottom: 3px solid #f63;
+white-space: nowrap;
+}
+
+#navlist li
+{
+float: left;
+margin: 0 0 0 2px;
+border-width: 1px 1px 0 1px;
+border-style: solid;
+border-color: #aaa #555 #f63 #999;
+list-style-type: none;
+}
+
+#navlist li a
+{
+position: relative;
+width: 6em;
+display: block;
+margin: 0;
+padding: 1px 0.4em;
+border-width: 1px 1px 0 1px;
+border-style: solid;
+border-color: #ccc;
+background-color: #eee;
+color: #666;
+font: normal 0.7em/120% Verdana, Arial, Helvetica, sans-serif;
+text-align: center;
+text-decoration: none;
+}
+
+#navlist li a:hover
+{
+color: #00c;
+text-decoration: underline;
+}
+
+#navlist li#active a
+{
+font-weight: bold;
+background-color: #f63;
+color: #fff;
+border-color: #f96 #c30 #f63 #f96;
+}
+
+#navlist li#active a:hover { color: #fff; }
+
+#navlist ul#subnavlist
+{
+position: absolute;
+width: 100%;
+left: 0;
+top: 1.25em;
+height: 0.75em;
+margin: 0;
+padding: 0;
+border-bottom: 3px solid #f63;
+white-space: nowrap;
+}
+
+ input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 4em;
+}
+
+
+#navlist ul#subnavlist li
+{
+width: 14ex;
+margin: 0;
+border: 0;
+}
+
+#navlist ul#subnavlist li a
+{
+width: auto;
+padding: 0.06em 1em 0;
+border: 0;
+background-color: #fff;
+color: #000;
+font: normal normal 0.66em/110% Verdana, Arial, sans-serif;
+}
+
+#navlist ul#subnavlist li a:hover
+{
+color: #00c;
+text-decoration: underline;
+font-weight: 400;
+/* IE5/Mac disappearing item fix */
+}
+
+#navlist ul#subnavlist li#subactive a
+{
+background-color: #fc9;
+color: #000;
+}
+
+* html > body #navlist, * html > body #navlist ul#subnavlist
+{
+width: 600px;
+/* IE5/Mac fixed width fix */
+}
+
+#agenda {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 440px;
+}
+
+#agenda td {
+    vertical-align: text-top;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#agenda tr:nth-child(even){background-color: #44E0E1;}
+#agenda tr:nth-child(odd){background-color: #D9F59F;}
+
+#agenda tr:hover {background-color: #ddd;}
+
+#agenda th {
+    vertical-align: text-top;
+    text-align: center;
+	  font-size: 14px
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*Se agregan clases para darle mas color y layout*/
+
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:center;
+}
+ 
+hr.style3 {
+  border-top: 5px dashed #FE4EDA;
+}
+hr.style4 {
+  border-top: 5px dashed #13167E;
+}
+hr.style5 {
+  border-top: 5px #800080;
+}
